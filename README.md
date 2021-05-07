@@ -26,5 +26,10 @@ vm -> env
 one ebpf_prog <=> one vm instance
 
 2. Prog-centrate
+one env -> mutiple prog
+
 ebpf_vm_run(ebpf_env *env, u8 *code, int codelen, u8 *mem, int memlen);
 
+struct ebpf_prog {
+    
+};
